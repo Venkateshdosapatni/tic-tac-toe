@@ -1,0 +1,19 @@
+#container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.class{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+}
